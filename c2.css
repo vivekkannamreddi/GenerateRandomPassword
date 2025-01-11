@@ -1,0 +1,79 @@
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+        border: border-box;
+    }
+    .background-container{
+        height: 100vh;
+        width: 192vh;
+        background-color: black;
+        flex-direction: column;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .main-container{
+        height: 50%;
+        width: 80%;
+        
+    }
+    .main-container #one{
+        color: white;
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .main-container  #two{
+        width: 29%;
+        color: red;
+        font-weight: 500;
+        font-size: 45px;
+        border-bottom: 4px solid rgb(79, 152, 79);
+        padding-bottom: 7px;
+
+    }
+    .input-feild{
+        height: 80px;
+        width: 50%;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 40px;
+        
+    }
+    .input-feild input{
+        height: 76.5px;
+        width: 50%;
+        border: none;
+        margin-left: 30px;
+        font-size: 25px;
+
+    }
+    input:focus{
+        outline: none;
+    }
+    .input-feild i{
+        position: relative;
+        left: 250px;
+        top: 10px;
+        color: rgb(79, 152, 79);
+        font-size: xx-large;
+        
+    }
+    .main-container button{
+        margin-top: 40px;
+        height: 60px;
+        width: 300px;
+        font-size:  xx-large;
+        text-align: left;
+        padding-left: 50px;
+        /* background-color:rgb(79, 152, 79);  */
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+    }
+    .main-container button i{
+        position: relative;
+        left: 20px;
+    }
