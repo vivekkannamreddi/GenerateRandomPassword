@@ -43,17 +43,21 @@ still typing 1234, try me!.
 
 </ol>
 
+<h2>Example Output</h2>
 
-Example Output
+<h5>Here are some examples of generated passwords:</h5>
+<ul>
+<li>A7d@l3pqZ!g</li>
+<li>fT4$Z2x@nLQ</li>
+<li>h%M5Bc2!Rq8</li>
 
-Here are some examples of generated passwords:
+</ul>
 
-A7d@l3pqZ!g
 
-fT4$Z2x@nLQ
 
-h%M5Bc2!Rq8
 
-License
 
+
+
+<h2>License</h2>
 This project is licensed under the MIT License. Feel free to use and modify it as per your needs.
