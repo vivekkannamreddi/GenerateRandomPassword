@@ -14,23 +14,35 @@ still typing 1234, try me!.
 =>Uses a combination of uppercase letters, lowercase letters, numbers, and special characters to ensure password strength.
 
 
-How It Works
+<h2>How It Works</h2>
+<ol>
+<li>The function selects one character each from uppercase, lowercase, numbers, and specialChars to ensure the password meets complexity requirements.</li>
 
-The function selects one character each from uppercase, lowercase, numbers, and specialChars to ensure the password meets complexity requirements.
+<li>Additional characters are randomly selected from allChars until the password reaches the desired length.
+</li>
 
-Additional characters are randomly selected from allChars until the password reaches the desired length.
+<li>The generated password is shuffled to enhance randomness.</li>
 
-The generated password is shuffled to enhance randomness.
+</ol>
 
-Usage
 
-Clone or download this repository.
 
-Copy the passwordgenerator function into your JavaScript project.
 
-Adjust the passwordLength variable to set the desired password length.
+<h2></h2>
 
-Call the passwordgenerator function to generate a secure password.
+<h2>Usage</h2>
+
+<ol>
+<li>Clone or download this repository.</li>
+
+
+<li>Copy the passwordgenerator function into your JavaScript project.</li>
+<li>Adjust the passwordLength variable to set the desired password length.</li>
+
+<li>Call the passwordgenerator function to generate a secure password.</li>
+
+</ol>
+
 
 Example Output
 
