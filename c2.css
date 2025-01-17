@@ -6,7 +6,7 @@
     }
     .background-container{
         height: 100vh;
-        width: 192vh;
+        width: 100%;
         background-color: black;
         flex-direction: column;
         display: flex;
